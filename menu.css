@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5e9dc;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #f5e9dc;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoimg{
+    width: 234px;
+    height: 64px;
+}
+.header .logo {
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+}
+.header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+.header nav a:hover{
+    color: #e74c3c;
+}
+.header .icons a {
+    margin: 0 5px;
+    color: #000;
+}
+.main-content {
+    text-align: center;
+    padding: 20px;
+}
+.main-content h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.food-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.food-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 200px;
+    text-align: left;
+}
+.food-item:hover{
+box-shadow: 10px 10px 20px rgb(184, 116, 116);
+}
+
+.food-item img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.food-item .details {
+    padding: 10px;
+}
+.food-item .details h3 {
+    font-size: 18px;
+    margin: 0;
+}
+.food-item .details p {
+    font-size: 14px;
+    color: #666;
+}
+.food-item .details .price {
+    font-size: 16px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+.footer {
+    background-color: #f5e9dc;
+    padding: 20px;
+    text-align: center;
+}
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.footer .footer-content .left,
+.footer .footer-content .right {
+    font-family: 'Indie Flower', cursive;
+}
+.footer .footer-content .left p,
+.footer .footer-content .right p {
+    margin: 5px 0;
+}

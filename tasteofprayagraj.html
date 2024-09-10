@@ -1,0 +1,329 @@
+<html>
+ <head>
+  <title>
+   Food Menu
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5e9dc;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #f5e9dc;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logoimg{
+            width: 234px;
+            height: 64px;
+        }
+        .header .logo {
+            font-family: 'Indie Flower', cursive;
+            font-size: 24px;
+        }
+        .header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #000;
+        }
+        .header nav a:hover{
+            color: #e74c3c;
+        }
+        .header .icons a {
+            margin: 0 5px;
+            color: #000;
+        }
+        .main-content {
+            text-align: center;
+            padding: 20px;
+        }
+        .main-content h1 {
+            font-family: 'Indie Flower', cursive;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .food-menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .food-item {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 200px;
+            text-align: left;
+        }
+        .food-item:hover{
+    box-shadow: 10px 10px 20px rgb(184, 116, 116);
+  }
+        
+        .food-item img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .food-item .details {
+            padding: 10px;
+        }
+        .food-item .details h3 {
+            font-size: 18px;
+            margin: 0;
+        }
+        .food-item .details p {
+            font-size: 14px;
+            color: #666;
+        }
+        .food-item .details .price {
+            font-size: 16px;
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .footer {
+            background-color: #f5e9dc;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .footer .footer-content .left,
+        .footer .footer-content .right {
+            font-family: 'Indie Flower', cursive;
+        }
+        .footer .footer-content .left p,
+        .footer .footer-content .right p {
+            margin: 5px 0;
+        }
+  </style>
+ </head>
+ <body>
+  <header class="header">
+   <div class="logo">
+    <a href="index.html"><img src="images/logo final.png" alt="" class="logoimg"></a>
+   </div>
+   <hr>
+   <nav>
+    <a href="index.html">
+     Home
+    </a>
+    <a href="about.html">
+     About
+    </a>
+    <a href="menu.html">
+     Food Menu
+    </a>
+    <a href="order food.html">
+     Order
+    </a>
+   </nav>
+   <div class="icons">
+    <input type="text" placeholder="Search Here">
+    <a href="#">
+     <i class="fas fa-search">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fas fa-user">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fas fa-shopping-cart">
+     </i>
+    </a>
+   </div>
+  </header>
+  <div class="main-content">
+   <h1>
+    Taste of Allahabad:The Kumbh City
+   </h1>
+   <div class="food-menu">
+    <div class="food-item">
+     <img alt="Delicious food item 1" src="images/biryani2.jpg"/>
+     <div class="details">
+      <h3>
+       Eat On
+      </h3>
+      <p>
+        "Eat On: Biryani so good, it'll blow your mind."<br>Starting at: 
+    </p>
+      <div class="price">
+       99.00 Rs/kg
+      </div>
+     </div>
+    </div>
+    <div class="food-item">
+     <img alt="Delicious food item 2" src="images/kailash2.jpg"/>
+     <div class="details">
+      <h3>
+       Kailash Parbat chat corner
+      </h3>
+      <p>
+        "The ultimate street food experience. Taste our Chaat and Paani Puri."
+        <br>Staring at just:
+      </p>
+      <div class="price">
+       25.00 Rs/plate
+      </div>
+     </div>
+    </div>
+    <div class="food-item">
+     <img alt="Delicious food item 3" src="images/pahadi-stall2.jpg"/>
+     <div class="details">
+      <h3>
+       Pahadi Momos
+      </h3>
+      <p>
+       Spicy Momos with sizzling sauce.<br>Starting at just:
+      </p>
+      <div class="price">
+       Rs 50.00
+      </div>
+     </div>
+    </div>
+    <div class="food-item">
+     <img alt="Delicious food item 4" src="images/Sorbet2.jpeg"/>
+     <div class="details">
+      <h3>
+       Allahabad Sorbbet
+      </h3>
+      <p>
+        "Discover a world of taste in every sip.".
+       <br>
+       Starting at:
+      </p>
+      <div class="price">
+       Rs 40.00
+      </div>
+     </div>
+    </div>
+    <div class="food-item">
+     <img alt="Delicious food item 5" src="images/Italian2.jpeg"/>
+     <div class="details">
+      <h3>
+       Italian Cuisines
+      </h3>
+      <p>
+       Pizza, Garlic bread, and lot more.
+       <br>
+       At just:
+      </p>
+      <div class="price">
+       Rs 120.00
+      </div>
+     </div>
+    </div>
+    <div class="food-item">
+     <img alt="Delicious food item 6" src="images/pahadi-momo2.jpeg"/>
+     <div class="details">
+      <h3>
+       Pahadi momo and hotspot cafe
+      </h3>
+      <p>
+       Firy spicy momos.
+       <br>
+       Starting at:
+      </p>
+      <div class="price">
+       Rs 60.00/plate
+      </div>
+     </div>
+    </div>
+    <div class="food-item">
+     <img alt="Delicious food item 7" src="images/Chikma2.jpeg"/>
+     <div class="details">
+      <h3>
+       Chikma Biryani
+      </h3>
+      <p>
+        "Craving biryani? We've got you covered!"
+        <br>
+        Starting at:
+          </p>
+      <div class="price">
+       80.00 Rs/plate
+      </div>
+     </div>
+    </div>
+    <div class="food-item">
+     <img alt="Delicious food item 8" src="images/yummy2.png"/>
+     <div class="details">
+      <h3>
+       Yummy Yummy Chinese Cuisnes 
+      </h3>
+      <p>
+        "Savor the authentic flavors of China, right here in India."
+            <br>
+            Starting at:
+    </p>
+      <div class="price">
+       Rs 30.00
+      </div>
+     </div>
+    </div>
+    <div class="food-item">
+     <img alt="Delicious food item 9" src="images/south-indian2.jpeg"/>
+     <div class="details">
+      <h3>
+        Shashikant South-Indian
+    </h3>
+      <p>
+        "From idli and dosa to sambar and rasam, experience the true taste of the South."
+        <br>
+        Starting at just:
+      </p>
+      <div class="price">
+       Rs 60.00
+      </div>
+     </div>
+    </div>
+    <div class="food-item">
+     <img alt="Delicious food item 10" src="images/Paan2.jpeg"/>
+     <div class="details">
+      <h3>
+       Allahabadi Pan Palace
+      </h3>
+      <p>
+        "Paan: A taste of India, wrapped in a leaf."
+        <br>
+        At just:
+      </p>
+      <div class="price">
+       Rs 25.00 
+      </div>
+     </div>
+    </div>
+    </div>
+  <footer class="footer">
+   <div class="footer-content">
+    <div class="left">
+     <p>
+      FoodTrail
+     </p>
+     <p>
+      Your Perfect Meal Partner
+     </p>
+     <p>
+      Contact: info@foodTrail.com.com
+     </p>
+    </div>
+    <div class="right">
+     <p>
+      Powered by V4
+     </p>
+    </div>
+   </div> 
+  </footer>
+ </body>
+</html>
